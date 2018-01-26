@@ -6,6 +6,9 @@ using WebServiceVisio.AccDatos;
 
 namespace WebServiceVisio.Visio
 {
+    /// <summary>
+    /// Clase para la generación de las figuras en Visio 2010
+    /// </summary>
     public class VisioShapes
     {
         Microsoft.Office.Interop.Visio.Document visioStencil = null;
